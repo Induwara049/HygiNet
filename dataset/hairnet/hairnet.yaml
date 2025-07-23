@@ -1,0 +1,16 @@
+train: ../train/images
+val: ../test/images   # 👈 Replace 'valid' with 'test' here
+test: ../test/images  # Optional, but doesn't affect this fix
+
+nc: 2
+names:
+  0: hairnet
+  1: no_hairnet
+
+
+roboflow:
+  workspace: agts
+  project: hairnet
+  version: 15
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/agts/hairnet/dataset/15
