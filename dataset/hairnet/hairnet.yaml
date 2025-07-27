@@ -1,6 +1,6 @@
 train: ../train/images
-val: ../test/images   # 👈 Replace 'valid' with 'test' here
-test: ../test/images  # Optional, but doesn't affect this fix
+val: ../val/images   
+test: ../test/images 
 
 nc: 2
 names:
